@@ -8,6 +8,7 @@ Group:		Applications/Graphics
 Source0:	http://www.agh.edu.pl/pub/tex/GUST/contrib/PS-supp/%{name}.zip
 # Source0-md5:	f1ce5e65b73bbcc1130dbde4a0b7c2af
 Source1:	%{name}-add.tar.gz
+# Source1-md5:	d97220c4c5862487585fbe76f0c5fb00
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	ghostscript
