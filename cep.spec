@@ -6,7 +6,8 @@ Release:	1
 License:	public domain
 Group:		Applications/Graphics
 BuildArch:	noarch
-BuildRequires:	ghostscript, perl
+BuildRequires:	ghostscript
+BuildRequires:	%{_bindir}/perl
 Source0:	http://www.agh.edu.pl/pub/tex/GUST/contrib/PS-supp/%{name}.zip
 Source1:	%{name}-add.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
