@@ -12,7 +12,7 @@ Source1:	%{name}-add.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	ghostscript
-BuildRequires:	/usr/bin/perl
+BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
