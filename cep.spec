@@ -1,5 +1,5 @@
 Summary:	Compress/uncompress PostScript files
-Summary(pl.UTF-8):   Kompresja/dekompresja plików PostScript
+Summary(pl.UTF-8):	Kompresja/dekompresja plików PostScript
 Name:		cep
 Version:	1.03
 Release:	1
