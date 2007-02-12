@@ -1,5 +1,5 @@
 Summary:	Compress/uncompress PostScript files
-Summary(pl):	Kompresja/dekompresja plików PostScript
+Summary(pl.UTF-8):   Kompresja/dekompresja plikÃ³w PostScript
 Name:		cep
 Version:	1.03
 Release:	1
@@ -20,10 +20,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 cep/cop compresses Postscript files producing self-extracting
 Postscript level 2 files, that can be used instead of original files.
 
-%description -l pl
-cep/cop kompresuje pliki Postscript produkuj±c samorozpakowywalne
-pliki PS poziomu 2, które mog± byæ wykorzystane zamiast oryginalnych
-plików.
+%description -l pl.UTF-8
+cep/cop kompresuje pliki Postscript produkujÄ…c samorozpakowywalne
+pliki PS poziomu 2, ktÃ³re mogÄ… byÄ‡ wykorzystane zamiast oryginalnych
+plikÃ³w.
 
 %prep
 %setup -q -n cep -b 1
