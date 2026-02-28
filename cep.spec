@@ -2,7 +2,7 @@ Summary:	Compress/uncompress PostScript files
 Summary(pl.UTF-8):	Kompresja/dekompresja plików PostScript
 Name:		cep
 Version:	1.03
-Release:	1
+Release:	2
 License:	Public Domain
 Group:		Applications/Graphics
 Source0:	http://www.agh.edu.pl/pub/tex/GUST/contrib/PS-supp/%{name}.zip
