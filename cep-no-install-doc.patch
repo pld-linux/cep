@@ -1,0 +1,22 @@
+--- cep.orig/Makefile.in
++++ cep/Makefile.in
+@@ -21,7 +21,7 @@
+ dedosify:
+ 	perl -i.BAK -pe 's/\r//' $(AWKFILES) $(SHFILES) $(DOCFILES)
+
+-install: install-bin install-data install-doc
++install: install-bin install-data install-man
+
+ install-bin:
+ 	mkdir -p $(DESTDIR)/$(bindir)
+@@ -33,9 +33,8 @@
+ 	mkdir -p $(DESTDIR)/$(awkdir)
+ 	cp -a $(AWKFILES) $(DESTDIR)/$(awkdir)
+
+-install-doc:
+-	mkdir -p $(DESTDIR)/$(docdir)
+-	cp -a $(DOCFILES) $(DESTDIR)/$(docdir)
++# Documentation (DOCFILES) is installed via rpm %doc, not by make.
++install-man:
+ 	mkdir -p $(DESTDIR)/$(mandir)/man1
+ 	for a in cep cop uncep uncop; do cp cepman $(DESTDIR)/$(mandir)/man1/$$a.1; done
